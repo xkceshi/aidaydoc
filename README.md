@@ -7,6 +7,9 @@
 ├── main.py          # 主程序
 └── requirements.txt  # 依赖管理
 
+主要功能：
+定时整理互联网上的AI资讯，并生成日报，发送到博客中。
+
 配置参数（config.yaml）：
 1. AI配置，如果使用硅基流动，配置上自己的api_key即可，model也可以做相应的调整
 2. blog配置，由于我使用的typecho，所以需要在typecho中开启接收XMLRPC，并支持markdown写法
