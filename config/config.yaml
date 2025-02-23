@@ -1,0 +1,28 @@
+rss_sources:
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+  - name: "雷锋网"
+    url: "https://www.leiphone.com/feed/categoryRss/name/ai"
+  - name: "VentureBeat"
+    url: "https://venturebeat.com/category/ai/feed/"
+  - name: "钛媒体"
+    url: "https://www.tmtpost.com/rss"
+  - name: "极客公园"
+    url: "https://www.geekpark.net/rss"
+
+ai_config:
+  provider: "siliconflow"
+  api_endpoint: "https://api.siliconflow.cn/v1/chat/completions"
+  api_key: "sk-irxfqroueygovigzjfbfjjetyxobtylkhxwiixzrqwkcalxj"
+  model: "Qwen/Qwen2.5-32B-Instruct"
+  temperature: 0.7
+  max_tokens: 1000
+
+blog_config:
+  type: "typecho"
+  api_endpoint: "https://xiaokang.ren"
+  username: "renxk"
+  password: "Typecho@1990930"
+  category: "今日新鲜事"  # 使用分类的缩略名
